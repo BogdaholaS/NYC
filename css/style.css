@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  box-sizing: border-box; }
+
+ul {
+  padding-left: 0; }
+  ul li {
+    margin: 10px 0; }
+
+ol {
+  padding-left: 0; }
+  ol li {
+    margin: 20px 0; }
+
+header {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #49B6FF 100%), linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%), url("../img/image.png") no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  header .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 683px; }
+    header .header-content h2 {
+      font-family: Open Sans,sans-serif;
+      font-size: 48px;
+      letter-spacing: 0.05em;
+      margin: 0;
+      position: relative; }
+      header .header-content h2::after {
+        position: absolute;
+        bottom: -30px;
+        content: '';
+        display: block;
+        width: 232px;
+        height: 3px;
+        color: white;
+        background: white; }
+    header .header-content h1 {
+      font-family: Montserrat,sans-serif;
+      font-size: 96px;
+      text-shadow: 0 1px 4px #000000; }
+      @media (max-width: 825px) {
+        header .header-content h1 {
+          font-size: 64px; } }
+      @media (max-width: 490px) {
+        header .header-content h1 {
+          font-size: 44px; } }
+
+main .paragraph {
+  font-family: Open Sans,sans-serif;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px; }
+  main .paragraph p {
+    text-align: center;
+    max-width: 846px;
+    font-size: 24px;
+    color: #4A4A4A; }
+    @media (max-width: 1366px) {
+      main .paragraph p {
+        font-size: 16px;
+        width: 60%;
+        margin: 30px auto; } }
+  main .paragraph span {
+    font-family: Open Sans,sans-serif;
+    font-size: 24px;
+    position: relative;
+    color: #49B6FF; }
+    main .paragraph span::after {
+      position: absolute;
+      bottom: -20px;
+      content: '';
+      display: block;
+      width: 160px;
+      height: 6px; }
+main section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: Open Sans,sans-serif;
+  font-size: 24px;
+  margin-bottom: 80px;
+  color: #4A4A4A; }
+  main section h3 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #4A4A4A; }
+  main section div {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px; }
+    @media (max-width: 1366px) {
+      main section div {
+        text-align: center;
+        font-size: 16px; } }
+    @media (max-width: 825px) {
+      main section div {
+        width: auto; } }
+    @media (max-width: 1366px) {
+      main section div .textBlock {
+        width: 60%;
+        margin: 0 auto; } }
+    @media (max-width: 825px) {
+      main section div .imgBlock {
+        width: 100%; }
+        main section div .imgBlock img {
+          width: 100%; } }
+main .park {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  main .park .parkImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: white;
+    width: 1078px;
+    height: 606px;
+    background: url("../img/park.png");
+    margin-bottom: 50px; }
+    @media (max-width: 1366px) {
+      main .park .parkImage {
+        width: 720px;
+        height: 360px; } }
+    @media (max-width: 825px) {
+      main .park .parkImage {
+        width: 100%;
+        min-height: 240px; } }
+    main .park .parkImage h1 {
+      width: 505px;
+      font-family: Montserrat,sans-serif;
+      font-weight: bold;
+      font-size: 64px;
+      text-align: center;
+      color: #FFFFFF;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); }
+      @media (max-width: 825px) {
+        main .park .parkImage h1 {
+          font-size: 32px; } }
+  main .park span {
+    font-family: Open Sans,sans-serif;
+    font-size: 24px;
+    position: relative;
+    color: #49B6FF;
+    margin-bottom: 120px; }
+    main .park span::after {
+      position: absolute;
+      bottom: -20px;
+      content: '';
+      display: block;
+      width: 160px;
+      height: 6px; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans,sans-serif;
+  font-size: 24px;
+  color: #4A4A4A;
+  position: relative; }
+  footer .line {
+    background: #49B6FF;
+    position: absolute;
+    bottom: -75px;
+    width: 100%;
+    height: 10px; }
+
+/*# sourceMappingURL=style.css.map */
